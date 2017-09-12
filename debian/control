@@ -9,6 +9,7 @@ Homepage: http://www.eblong.com/zarf/glk/
 Package: glk-headers-dev
 Architecture: any
 Depends: ${misc:Depends}
-Description: Header files for development based on the GLK API.
+Description: Header files for development based on the GLK API
  This package provides the generic glk.h and glkstart.h files which are
- required for development based on Andrew Plotkin's GLK API.
+ required for development based on Andrew Plotkin's GLK API, in order to
+ link it to one of the GLK libraries later.
