@@ -1,0 +1,17 @@
+
+These files have been put together from the following sources:
+ - "glk.h" from http://www.eblong.com/zarf/glk/glk.h
+ - Both "glkstart.h" and "LICENSE" were taken from
+   http://www.eblong.com/zarf/glk/remglk-026.tar.gz
+
+The purpose is to have a set of both GLK header files which are
+required to compile GLK-based applications on unix systems, and also
+to have a base from which to create a tarball for debian-based
+packaging of these development files, since "glk.h" is not distributed
+in a tarball or any other kind of archive.
+
+The tarball name "glk-headers_20180223.orig.tar" is supposed to
+represent the files as they were provided for distribution from
+their original sources (as stated above) on the designated date,
+in this case Febuary 23, 2018.
+
